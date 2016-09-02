@@ -1,13 +1,28 @@
-//
+// ==========================================================================
 // Variables
+// ==========================================================================
+
+//
+// Colour
 // --------------------------------------------------------------------------
-$clr-main:#1663c7;
-$clr-main-dark:#073B7D;
-$clr-gray-dark:#3C4045;
-$clr-gray-light:#f9fbfb;
-$clr-alt:#06C696;
-$ff-serif:'Libre Baskerville', Georgia, serif;
-$ff-fancy:'Josefin Sans', 'Helvetica Neue Light', Arial, sans-serif;
-$ff-body:'Times New Roman', Times, Garamond, serif;
-$ff-sans:'Roboto', 'Helvetica Neue', Arial, sans-serif;
-$ff-comfortaa:'Comfortaa', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+$clr-main: #1663c7;
+$clr-main-dark: #073B7D;
+$clr-gray-dark: #3C4045;
+$clr-gray-light: #f9fbfb;
+$clr-alt: #06C696;
+
+$clr-nav-item-blue: $clr-main;
+$clr-nav-item-green: $clr-alt;
+$clr-nav-item-1: $clr-alt;
+$clr-nav-item-2: $clr-main;
+$clr-nav-item-3: #FF6408;
+$clr-nav-item-4: #FFA108;
+
+//
+// Font Family
+// --------------------------------------------------------------------------
+$ff-serif: 'Libre Baskerville', Georgia, serif;
+$ff-fancy: 'Josefin Sans', 'Helvetica Neue Light', Arial, sans-serif;
+$ff-body: 'Times New Roman', Times, Garamond, serif;
+$ff-sans: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+$ff-comfortaa: 'Comfortaa', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
