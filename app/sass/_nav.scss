@@ -1,0 +1,63 @@
+//
+// Imports
+// --------------------------------------------------------------------------
+@import '_variables.scss';
+@import '_mixins.scss';
+
+//
+// Styles
+// --------------------------------------------------------------------------
+.nav {
+    @include flex();
+    font-family: $ff-sans;
+
+    &-list {
+        @include flex();
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-around;
+        width: 100%;
+        height: 50vh;
+
+        margin: 0;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            height: auto;
+        }
+    }
+    &-list-item {
+        @include flex();
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        > a {
+            color: #fff;
+
+            @media (min-width: 768px) {
+                color: $clr-alt;
+            }
+        }
+        &--first {
+            background-color: $clr-nav-item-2;
+        }
+        &--second {
+            background-color: $clr-nav-item-1;
+        }
+        &--third {
+            background-color: $clr-nav-item-4;
+        }
+        &--fourth {
+            background-color: $clr-nav-item-3;
+        }
+        &--first,
+        &--second,
+        &--third,
+        &--fourth {
+            @media (min-width: 768px) {
+                background-color: #fff;
+            }
+        }
+    }
+}
